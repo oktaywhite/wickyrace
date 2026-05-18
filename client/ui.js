@@ -323,13 +323,6 @@ function showPathModal(playerName, pathArray, roundPoints, clicks) {
                 <div class="step-title">${step}</div>
             `;
             list.appendChild(stepDiv);
-
-            if (index < pathArray.length - 1) {
-                const arrow = document.createElement('div');
-                arrow.className = 'path-arrow-v';
-                arrow.innerText = '↓';
-                list.appendChild(arrow);
-            }
         });
     }
 
