@@ -3505,12 +3505,13 @@ input[type="range"]::-webkit-slider-thumb:hover {
 .royal-victory-crown {
     display: block !important;
     position: absolute !important;
-    top: -40px !important;
-    right: -15px !important;
-    font-size: 2.2rem !important;
+    top: -12px !important;
+    right: -5px !important;
+    font-size: 1.8rem !important;
     z-index: 10000 !important;
     animation: masterFloat 2.5s ease-in-out infinite !important;
     transform-origin: center center !important;
+    filter: drop-shadow(0 4px 15px rgba(251, 191, 36, 0.8)) !important;
 }
 
 @keyframes masterFloat {
@@ -3535,4 +3536,14 @@ input[type="range"]::-webkit-slider-thumb:hover {
 body.results-active .app-footer {
     display: none !important;
 }
+
+/* --- LEADERBOARD HINT REFINEMENT --- */
+.click-hint {
+    margin-top: 2.5rem !important;
+    font-size: 0.8rem !important;
+    opacity: 0.6 !important;
+    text-align: center !important;
+    letter-spacing: 0.5px !important;
+}
+
 
