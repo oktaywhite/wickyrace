@@ -3550,58 +3550,65 @@ body.results-active .app-footer {
    ULTRA PREMIUM GLASSMORPHISM PATH RECAP MODAL
    ========================================================================== */
 #path-modal .modal-content {
-    background: rgba(15, 23, 42, 0.85) !important;
-    backdrop-filter: blur(32px) saturate(200%) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(30px) saturate(200%) !important;
     border: 1px solid rgba(255, 255, 255, 0.15) !important;
     border-radius: 28px !important;
-    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.7), 0 0 40px rgba(139, 92, 246, 0.3) !important;
-    padding: 2.5rem !important;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.1) !important;
+    padding: 2.5rem 2rem 2rem 2rem !important;
     max-height: 85vh !important;
+    max-width: 500px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
     display: flex !important;
     flex-direction: column !important;
     box-sizing: border-box !important;
+    position: relative !important;
 }
 
 #path-modal .modal-header {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-    padding-bottom: 1.2rem !important;
-    margin-bottom: 1.5rem !important;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 1.8rem !important;
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: center !important;
     align-items: center !important;
+    width: 100% !important;
 }
 
 #path-modal-title {
-    font-size: 1.5rem !important;
-    font-weight: 800 !important;
-    background: linear-gradient(135deg, #ffffff 0%, #c084fc 100%) !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: white !important;
+    background: none !important;
+    -webkit-text-fill-color: white !important;
     margin: 0 !important;
     letter-spacing: 0.5px !important;
+    text-align: center !important;
 }
 
 #path-modal .close-modal {
-    width: 38px !important;
-    height: 38px !important;
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    width: 32px !important;
+    height: 32px !important;
     border-radius: 50% !important;
-    background: rgba(255, 255, 255, 0.08) !important;
-    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
     color: white !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     cursor: pointer !important;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition: all 0.3s !important;
+    box-shadow: none !important;
 }
 
 #path-modal .close-modal:hover {
-    background: var(--primary) !important;
-    border-color: var(--primary) !important;
-    transform: rotate(90deg) scale(1.1) !important;
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.5) !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+    transform: scale(1.1) !important;
 }
 
 #path-modal .path-container {
@@ -3706,26 +3713,26 @@ body.results-active .app-footer {
 }
 
 #path-modal .path-footer {
-    margin-top: 1.8rem !important;
-    padding-top: 1.4rem !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    margin-top: 1.5rem !important;
+    padding-top: 0 !important;
+    border-top: none !important;
     display: flex !important;
     justify-content: center !important;
+    width: 100% !important;
 }
 
 #path-stats-info {
     text-align: center !important;
-    font-size: 1rem !important;
-    font-weight: 700 !important;
-    color: #d8b4fe !important;
-    letter-spacing: 0.5px !important;
-    background: rgba(139, 92, 246, 0.15) !important;
-    border: 1px solid rgba(139, 92, 246, 0.3) !important;
-    padding: 1rem 2rem !important;
-    border-radius: 18px !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding: 0.8rem 1.5rem !important;
+    border-radius: 16px !important;
     margin: 0 !important;
     width: 100% !important;
-    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.15) !important;
+    box-shadow: none !important;
 }
 
 
